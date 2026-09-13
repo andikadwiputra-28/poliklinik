@@ -1,0 +1,75 @@
+/* CSS Document */
+body{
+font-family:Arial;
+background:#f2f4f8;
+margin:0;
+padding:0;
+}
+
+.header{
+background:#0d6efd;
+padding:20px;
+color:white;
+}
+
+.container{
+width:95%;
+margin:auto;
+padding-top:20px;
+}
+
+.filter{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:
+0 2px 8px rgba(0,0,0,0.1);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:
+0 3px 10px rgba(0,0,0,0.1);
+}
+
+table th{
+background:#0d6efd;
+color:white;
+padding:15px;
+}
+
+table td{
+padding:12px;
+text-align:center;
+border-bottom:
+1px solid #ddd;
+}
+
+tr:hover{
+background:#f5f5f5;
+}
+
+.status{
+background:green;
+color:white;
+padding:5px 10px;
+border-radius:10px;
+}
+
+.btn{
+background:#0d6efd;
+color:white;
+padding:10px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+.nomor{
+font-size:18px;
+font-weight:bold;
+color:red;
+}

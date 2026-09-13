@@ -1,0 +1,174 @@
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f4f7;
+    font-family: Arial;
+}
+
+/* HEADER */
+
+.header {
+
+    background: #0d6efd;
+
+    color: white;
+
+    padding: 20px;
+
+}
+
+/* AREA KATALOG */
+
+.katalog {
+
+    width: 95%;
+
+    margin: auto;
+
+    padding-top: 30px;
+
+    display: grid;
+
+    /* maksimal 3 kolom */
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+/* CARD */
+
+.card {
+
+    background: white;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+/* FOTO DOKTER */
+
+/*
+UBAH SESUAI KEBUTUHAN
+*/
+
+.foto-dokter {
+
+    width: 100px;
+
+    height: 100px;
+
+    margin: auto;
+
+    display: block;
+
+    object-fit: cover;
+
+    padding-top: 15px;
+
+}
+
+/* INFORMASI */
+
+.info {
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.nama {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+.poli {
+
+    color: #666;
+
+    margin-bottom: 15px;
+
+}
+
+.status {
+
+    background: green;
+
+    color: white;
+
+    padding: 8px 15px;
+
+    border-radius: 20px;
+
+    display: inline-block;
+
+}
+
+.btn {
+
+    margin-top: 15px;
+
+    display: block;
+
+    text-decoration: none;
+
+    background: #0d6efd;
+
+    color: white;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+
+    background: #084298;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+
+    .katalog {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+}
+
+@media(max-width:600px) {
+
+    .katalog {
+
+        grid-template-columns:
+            repeat(1, 1fr);
+
+    }
+
+}
